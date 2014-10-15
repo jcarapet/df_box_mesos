@@ -10,7 +10,7 @@ pkg/
 .vagrant
 /cookbooks
 Berksfile.lock
-
+.kitchen/*
 # Bundler
 Gemfile.lock
 bin/*

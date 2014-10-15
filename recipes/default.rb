@@ -22,3 +22,23 @@ sudo service mesos-slave start
 sudo service marathon start
 EOH
 end
+
+include_recipe "docker::default"
+
+directory "/etc/mesos-slave" do 
+	recursive true
+	action :create
+end
+
+file "/etc/mesos-slave/containerizers" do 
+	content "docker,mesos"
+	action :create
+end
+
+file "/etc/mesos-slave/executor_registration_timeout" do 
+	content "5mins"
+	action :create 
+end
+
+
+

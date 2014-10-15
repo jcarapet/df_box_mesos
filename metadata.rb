@@ -6,3 +6,4 @@ description      'Installs/Configures df_box_mesos'
 long_description 'Installs/Configures df_box_mesos'
 version          '0.1.0'
 
+depends 'docker'
