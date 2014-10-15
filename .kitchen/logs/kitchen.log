@@ -1,0 +1,239 @@
+I, [2014-10-06T16:59:38.112460 #9277]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+E, [2014-10-06T16:59:38.112825 #9277] ERROR -- Kitchen: ------Exception-------
+E, [2014-10-06T16:59:38.112859 #9277] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-10-06T16:59:38.112882 #9277] ERROR -- Kitchen: Message: Kitchen YAML file /Users/thisguy/work/boxes/df_box_mesos/.kitchen.yml does not exist.
+E, [2014-10-06T16:59:38.112915 #9277] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-10-06T16:59:38.112940 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2014-10-06T16:59:38.112965 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:78:in `data'
+E, [2014-10-06T16:59:38.113008 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:66:in `suites'
+E, [2014-10-06T16:59:38.113033 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-10-06T16:59:38.113058 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-10-06T16:59:38.113082 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:52:in `instances'
+E, [2014-10-06T16:59:38.113107 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-10-06T16:59:38.113131 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-10-06T16:59:38.113155 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/action.rb:37:in `block in call'
+E, [2014-10-06T16:59:38.113180 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-10-06T16:59:38.113205 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/action.rb:36:in `call'
+E, [2014-10-06T16:59:38.113229 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-10-06T16:59:38.113254 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:130:in `block (2 levels) in <class:CLI>'
+E, [2014-10-06T16:59:38.113296 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-10-06T16:59:38.113322 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-10-06T16:59:38.113347 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:259:in `invoke_task'
+E, [2014-10-06T16:59:38.113372 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-10-06T16:59:38.113396 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-10-06T16:59:38.113421 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-10-06T16:59:38.113445 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-10-06T16:59:38.113470 #9277] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `<top (required)>'
+E, [2014-10-06T16:59:38.113494 #9277] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:10:in `load'
+E, [2014-10-06T16:59:38.113518 #9277] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:10:in `<main>'
+E, [2014-10-06T16:59:38.113542 #9277] ERROR -- Kitchen: ----------------------
+I, [2014-10-06T17:00:53.561816 #9285]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-06T17:00:54.455680 #9285]  INFO -- Kitchen: -----> Creating <default-ubuntu-1204>...
+I, [2014-10-06T17:02:22.419129 #9285]  INFO -- Kitchen: -----> Converging <default-ubuntu-1204>...
+E, [2014-10-06T17:02:53.630780 #9285] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1204>.
+I, [2014-10-06T17:11:19.493671 #9450]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-06T17:11:20.101356 #9450]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2014-10-06T17:11:24.330032 #9450]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-10-06T17:11:24.331942 #9450]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.84s)
+I, [2014-10-06T17:11:37.881867 #9493]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-06T17:11:38.499053 #9493]  INFO -- Kitchen: -----> Creating <default-ubuntu-1204>...
+I, [2014-10-06T17:12:59.666731 #9493]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-10-06T17:15:56.725338 #9493]  INFO -- Kitchen: -----> Kitchen is finished. (4m18.84s)
+I, [2014-10-06T17:23:07.663143 #9783]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-06T17:23:08.259320 #9783]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-10-06T17:23:12.269378 #9783]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.61s)
+I, [2014-10-06T17:36:12.482294 #9886]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-06T17:36:13.116003 #9886]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2014-10-06T17:36:17.151145 #9886]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-10-06T17:36:17.151955 #9886]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.67s)
+I, [2014-10-06T17:36:46.022660 #9928]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+E, [2014-10-06T17:36:46.024133 #9928] ERROR -- Kitchen: ------Exception-------
+E, [2014-10-06T17:36:46.024173 #9928] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-10-06T17:36:46.024193 #9928] ERROR -- Kitchen: Message: Error parsing /Users/thisguy/work/boxes/df_box_mesos/.kitchen.yml as YAML.
+Please run `kitchen diagnose --no-instances --loader' to help debug your issue.
+E, [2014-10-06T17:36:46.024212 #9928] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-10-06T17:36:46.024243 #9928] ERROR -- Kitchen: Class: Psych::SyntaxError
+E, [2014-10-06T17:36:46.024261 #9928] ERROR -- Kitchen: Message: (<unknown>): could not find expected ':' while scanning a simple key at line 4 column 3
+E, [2014-10-06T17:36:46.024292 #9928] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-10-06T17:36:46.024309 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:211:in `rescue in parse_yaml_string'
+E, [2014-10-06T17:36:46.024327 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:200:in `parse_yaml_string'
+E, [2014-10-06T17:36:46.024345 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:113:in `yaml'
+E, [2014-10-06T17:36:46.024362 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:105:in `combined_hash'
+E, [2014-10-06T17:36:46.024380 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:77:in `read'
+E, [2014-10-06T17:36:46.024398 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:78:in `data'
+E, [2014-10-06T17:36:46.024419 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:66:in `suites'
+E, [2014-10-06T17:36:46.024437 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-10-06T17:36:46.024455 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-10-06T17:36:46.024473 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:52:in `instances'
+E, [2014-10-06T17:36:46.024497 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-10-06T17:36:46.024516 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-10-06T17:36:46.024533 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/action.rb:37:in `block in call'
+E, [2014-10-06T17:36:46.024570 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-10-06T17:36:46.024590 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/action.rb:36:in `call'
+E, [2014-10-06T17:36:46.024611 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-10-06T17:36:46.024629 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:130:in `block (2 levels) in <class:CLI>'
+E, [2014-10-06T17:36:46.024646 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-10-06T17:36:46.024664 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-10-06T17:36:46.024681 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:259:in `invoke_task'
+E, [2014-10-06T17:36:46.024698 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-10-06T17:36:46.024716 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-10-06T17:36:46.024746 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-10-06T17:36:46.024764 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-10-06T17:36:46.024785 #9928] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `<top (required)>'
+E, [2014-10-06T17:36:46.024803 #9928] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:10:in `load'
+E, [2014-10-06T17:36:46.024821 #9928] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:10:in `<main>'
+E, [2014-10-06T17:36:46.024838 #9928] ERROR -- Kitchen: ----------------------
+I, [2014-10-06T17:36:56.870703 #9929]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+E, [2014-10-06T17:36:56.872180 #9929] ERROR -- Kitchen: ------Exception-------
+E, [2014-10-06T17:36:56.872220 #9929] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-10-06T17:36:56.872241 #9929] ERROR -- Kitchen: Message: Error parsing /Users/thisguy/work/boxes/df_box_mesos/.kitchen.yml as YAML.
+Please run `kitchen diagnose --no-instances --loader' to help debug your issue.
+E, [2014-10-06T17:36:56.872260 #9929] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-10-06T17:36:56.872279 #9929] ERROR -- Kitchen: Class: Psych::SyntaxError
+E, [2014-10-06T17:36:56.872297 #9929] ERROR -- Kitchen: Message: (<unknown>): could not find expected ':' while scanning a simple key at line 4 column 3
+E, [2014-10-06T17:36:56.872347 #9929] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-10-06T17:36:56.872366 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:211:in `rescue in parse_yaml_string'
+E, [2014-10-06T17:36:56.872385 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:200:in `parse_yaml_string'
+E, [2014-10-06T17:36:56.872404 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:113:in `yaml'
+E, [2014-10-06T17:36:56.872422 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:105:in `combined_hash'
+E, [2014-10-06T17:36:56.872441 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:77:in `read'
+E, [2014-10-06T17:36:56.872460 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:78:in `data'
+E, [2014-10-06T17:36:56.872478 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:66:in `suites'
+E, [2014-10-06T17:36:56.872497 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-10-06T17:36:56.872515 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-10-06T17:36:56.872556 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:52:in `instances'
+E, [2014-10-06T17:36:56.872584 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-10-06T17:36:56.872603 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-10-06T17:36:56.872622 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/action.rb:37:in `block in call'
+E, [2014-10-06T17:36:56.872641 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-10-06T17:36:56.872659 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/action.rb:36:in `call'
+E, [2014-10-06T17:36:56.872678 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-10-06T17:36:56.872696 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:130:in `block (2 levels) in <class:CLI>'
+E, [2014-10-06T17:36:56.872715 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-10-06T17:36:56.872733 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-10-06T17:36:56.872751 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:259:in `invoke_task'
+E, [2014-10-06T17:36:56.872773 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-10-06T17:36:56.872792 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-10-06T17:36:56.872825 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-10-06T17:36:56.872844 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-10-06T17:36:56.872863 #9929] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `<top (required)>'
+E, [2014-10-06T17:36:56.872881 #9929] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:10:in `load'
+E, [2014-10-06T17:36:56.872900 #9929] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:10:in `<main>'
+E, [2014-10-06T17:36:56.872918 #9929] ERROR -- Kitchen: ----------------------
+I, [2014-10-06T17:37:12.515234 #9930]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+E, [2014-10-06T17:37:12.516854 #9930] ERROR -- Kitchen: ------Exception-------
+E, [2014-10-06T17:37:12.516893 #9930] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-10-06T17:37:12.516914 #9930] ERROR -- Kitchen: Message: Error parsing /Users/thisguy/work/boxes/df_box_mesos/.kitchen.yml as YAML.
+Please run `kitchen diagnose --no-instances --loader' to help debug your issue.
+E, [2014-10-06T17:37:12.516945 #9930] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-10-06T17:37:12.516973 #9930] ERROR -- Kitchen: Class: Psych::SyntaxError
+E, [2014-10-06T17:37:12.516991 #9930] ERROR -- Kitchen: Message: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1
+E, [2014-10-06T17:37:12.517009 #9930] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-10-06T17:37:12.517027 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:211:in `rescue in parse_yaml_string'
+E, [2014-10-06T17:37:12.517055 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:200:in `parse_yaml_string'
+E, [2014-10-06T17:37:12.517073 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:113:in `yaml'
+E, [2014-10-06T17:37:12.517092 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:105:in `combined_hash'
+E, [2014-10-06T17:37:12.517110 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:77:in `read'
+E, [2014-10-06T17:37:12.517149 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:78:in `data'
+E, [2014-10-06T17:37:12.517170 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:66:in `suites'
+E, [2014-10-06T17:37:12.517188 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-10-06T17:37:12.517216 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-10-06T17:37:12.517234 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:52:in `instances'
+E, [2014-10-06T17:37:12.517252 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-10-06T17:37:12.517271 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-10-06T17:37:12.517289 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/action.rb:37:in `block in call'
+E, [2014-10-06T17:37:12.517307 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-10-06T17:37:12.517325 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/action.rb:36:in `call'
+E, [2014-10-06T17:37:12.517343 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-10-06T17:37:12.517364 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:130:in `block (2 levels) in <class:CLI>'
+E, [2014-10-06T17:37:12.517383 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-10-06T17:37:12.517401 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-10-06T17:37:12.517419 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:259:in `invoke_task'
+E, [2014-10-06T17:37:12.517451 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-10-06T17:37:12.517469 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-10-06T17:37:12.517487 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-10-06T17:37:12.517506 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-10-06T17:37:12.517524 #9930] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `<top (required)>'
+E, [2014-10-06T17:37:12.517542 #9930] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:10:in `load'
+E, [2014-10-06T17:37:12.517560 #9930] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:10:in `<main>'
+E, [2014-10-06T17:37:12.517578 #9930] ERROR -- Kitchen: ----------------------
+I, [2014-10-06T17:37:49.271236 #9933]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-06T17:37:49.864285 #9933]  INFO -- Kitchen: -----> Creating <default-ubuntu-1204>...
+I, [2014-10-06T17:39:12.655692 #9933]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-10-06T17:41:59.937520 #9933]  INFO -- Kitchen: -----> Kitchen is finished. (4m10.67s)
+I, [2014-10-06T17:55:50.603427 #10264]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-06T17:55:51.221974 #10264]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-10-06T17:55:55.431434 #10264]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.83s)
+I, [2014-10-07T05:17:43.260818 #10878]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T05:17:43.855646 #10878]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2014-10-07T05:17:48.998633 #10878]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-10-07T05:17:49.000424 #10878]  INFO -- Kitchen: -----> Kitchen is finished. (0m5.74s)
+I, [2014-10-07T05:19:43.285029 #10921]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T05:19:43.882042 #10921]  INFO -- Kitchen: -----> Creating <default-ubuntu-1204>...
+I, [2014-10-07T05:21:04.378435 #10921]  INFO -- Kitchen: -----> Kitchen is finished. (1m21.09s)
+E, [2014-10-07T05:21:17.919910 #11062] ERROR -- Kitchen: 
+Argument `' returned multiple results:
+  * default-ubuntu-1204
+  * default-centos-64
+
+
+I, [2014-10-07T05:38:55.242566 #11122]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T05:38:55.860543 #11122]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2014-10-07T05:38:59.821857 #11122]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-10-07T05:38:59.827792 #11122]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.59s)
+I, [2014-10-07T05:39:08.380925 #11163]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T05:39:08.976392 #11163]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-10-07T05:41:56.334191 #11163]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-10-07T05:43:24.038496 #11163] ERROR -- Kitchen: Converge failed on instance <default-centos-64>.
+E, [2014-10-07T05:45:07.993216 #11318] ERROR -- Kitchen: 
+Argument `' returned multiple results:
+  * default-ubuntu-1204
+  * default-centos-64
+
+
+I, [2014-10-07T05:45:34.060697 #11341]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T05:45:34.637808 #11341]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2014-10-07T05:45:34.645105 #11341]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-10-07T05:45:38.736304 #11341]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.68s)
+I, [2014-10-07T05:46:15.119819 #11382]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T05:46:15.711403 #11382]  INFO -- Kitchen: -----> Creating <default-ubuntu-1204>...
+I, [2014-10-07T05:47:39.871184 #11382]  INFO -- Kitchen: -----> Converging <default-ubuntu-1204>...
+E, [2014-10-07T05:48:08.852563 #11382] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1204>.
+I, [2014-10-07T06:03:43.096460 #11554]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T06:03:43.674434 #11554]  INFO -- Kitchen: -----> Converging <default-ubuntu-1204>...
+E, [2014-10-07T06:03:50.534741 #11554] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1204>.
+I, [2014-10-07T06:27:37.082580 #11613]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T06:27:37.685793 #11613]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2014-10-07T06:27:41.786685 #11613]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-10-07T06:27:41.787352 #11613]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.70s)
+I, [2014-10-07T06:27:47.747759 #11653]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T06:27:48.351587 #11653]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-10-07T06:30:34.816289 #11653]  INFO -- Kitchen: -----> Kitchen is finished. (2m47.07s)
+I, [2014-10-07T06:33:57.749994 #11805]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T06:33:58.340947 #11805]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2014-10-07T06:33:58.348788 #11805]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-10-07T06:34:02.673257 #11805]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.92s)
+I, [2014-10-07T06:34:09.600247 #11846]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T06:34:10.217824 #11846]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-10-07T06:37:01.113898 #11846]  INFO -- Kitchen: -----> Kitchen is finished. (2m51.51s)
+I, [2014-10-07T15:33:32.173692 #12361]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-07T15:33:32.853249 #12361]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2014-10-07T15:33:32.854789 #12361]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-10-07T15:33:37.409490 #12361]  INFO -- Kitchen: -----> Kitchen is finished. (0m5.24s)
+I, [2014-10-09T16:48:13.242477 #18136]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-09T16:48:14.361500 #18136]  INFO -- Kitchen: -----> Creating <default-ubuntu-1204>...
+I, [2014-10-09T16:49:42.366898 #18136]  INFO -- Kitchen: -----> Kitchen is finished. (1m29.12s)
+E, [2014-10-09T16:51:27.267742 #18276] ERROR -- Kitchen: 
+Argument `' returned multiple results:
+  * default-ubuntu-1204
+  * default-centos-65
+
+
+I, [2014-10-10T15:31:49.535502 #19839]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-10T15:31:50.589419 #19839]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2014-10-10T15:31:55.237562 #19839]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-10-10T15:31:55.238791 #19839]  INFO -- Kitchen: -----> Kitchen is finished. (0m5.70s)
+I, [2014-10-15T11:40:56.334025 #25798]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.2.dev)
+I, [2014-10-15T11:40:56.939980 #25798]  INFO -- Kitchen: -----> Creating <default-ubuntu-1204>...
+I, [2014-10-15T11:42:22.693869 #25798]  INFO -- Kitchen: -----> Converging <default-ubuntu-1204>...
+I, [2014-10-15T11:44:14.355640 #25798]  INFO -- Kitchen: -----> Kitchen is finished. (3m18.02s)
